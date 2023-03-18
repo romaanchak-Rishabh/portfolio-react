@@ -20,7 +20,7 @@ const Contact = () => {
     }
 
     return (
-        <section id="contact" className="py-48">
+        <section id="contact" className="py-24 pb-0">
             {/* HEADINGS */}
             <motion.div
                 className="flex justify-end w-full"
