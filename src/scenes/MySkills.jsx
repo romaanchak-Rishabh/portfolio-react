@@ -72,7 +72,7 @@ const MySkills = () => {
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
                     </div>
-                    <p className="mt-5">
+                    <p className="mt-5 text-justify">
                         10 months of Internship Experience(4 Intern certificates) as a Frontend Web Developer(ReactJs Dev to be more precise). Worked with various libraries of JS like axios, openStreetMaps, React-router and many styling frameworks like TailwindCSS, Bootstrap. My years of experience have equipped me with a deep understanding of the development process, from ideation to deployment, and everything in between.                    </p>
                 </motion.div>
 
@@ -95,7 +95,7 @@ const MySkills = () => {
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
                     </div>
-                    <p className="mt-5">
+                    <p className="mt-5 text-justify">
                     As a developer, I strive to be innovative by constantly exploring new technologies and experimenting with different approaches to problem-solving. I am always looking for ways to improve user experiences, whether it's through creating more intuitive interfaces, faster page load times, or more efficient code.
                     </p>
                 </motion.div>
@@ -119,7 +119,7 @@ const MySkills = () => {
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                     </div>
-                    <p className="mt-5">
+                    <p className="mt-5 text-justify">
                     As a developer, I believe that imagination is key to creating truly innovative and impactful solutions. I constantly challenge myself to think outside the box and approach problems from new and imaginative angles. By combining technical expertise with a creative mindset, I am able to bring fresh ideas to every project and create experiences that are both functional and engaging.
                     </p>
                 </motion.div>

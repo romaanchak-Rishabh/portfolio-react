@@ -40,7 +40,7 @@ const Project = ( {title, Imgsrc} ) => {
 
 const Projects = () => {
     return (
-        <section id="projects" className="pt-48 pb-48">
+        <section id="projects" className="pt-36 pb-36 flex flex-col items-center">
             {/* HEADINGS */}
             <motion.div
                 className="md:w-2/4 mx-auto text-center"
@@ -61,13 +61,13 @@ const Projects = () => {
                 <div className="flex justify-center mt-5">
                     <LineGradient width="w-1/3" />
                 </div>
-                <p className="mt-10 mb-10">
+                <p className="mt-5 mb-0">
                     Here's some of the ideas that I brought into life!
                 </p>
             </motion.div>
 
             {/* PROJECTS */}
-            <div className="flex justify-center">
+            <div className="flex justify-center items-center w-4/5">
             <motion.div
                 className="sm:grid sm:grid-cols-3"
                 initial="hidden"
