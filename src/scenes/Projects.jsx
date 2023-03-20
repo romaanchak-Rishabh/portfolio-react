@@ -1,5 +1,6 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
+import useMediaQuery from "../hooks/useMediaQuery";
 import ProjectImg1 from "../assets/project-1.jpeg";
 import ProjectImg2 from "../assets/project-2.jpeg";
 import ProjectImg3 from "../assets/project-3.jpeg";
@@ -25,22 +26,38 @@ const Project = ( {title, Imgsrc} ) => {
     const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`
     const projectTitle = title.split(" ").join("-").toLowerCase();
 
+    const isAboveSmallScreens = useMediaQuery("(min-width: 768px)");
+
     return (
-        <motion.div variants={projectVariant} className="relative">
-            <div className={overlayStyles}>
-                <p className="text-2xl font-playfair">{title}</p>
-                <p className="mt-7">
-                    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
-                </p>
-            </div>
-            <img src={Imgsrc} alt={projectTitle} />
-        </motion.div>
+        <>
+            {isAboveSmallScreens ? (
+                <motion.div variants={projectVariant} className="relative">
+                    <div className={overlayStyles}>
+                        <p className="text-2xl font-playfair">{title}</p>
+                        <p className="mt-7">
+                            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
+                        </p>
+                    </div>
+                    <img src={Imgsrc} alt={projectTitle} />
+                </motion.div>
+            ) : (
+                <div variants={projectVariant} className="relative">
+                    <div className={overlayStyles}>
+                        <p className="text-2xl font-playfair">{title}</p>
+                        <p className="mt-7">
+                            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
+                        </p>
+                    </div>
+                    <img src={Imgsrc} alt={projectTitle} />
+                </div>
+            )}
+        </>
     )
 }
 
 const Projects = () => {
     return (
-        <section id="projects" className="pt-36 pb-36 flex flex-col items-center">
+        <section id="projects" className="pt-28 md:pt-36 pb-36 flex flex-col items-center">
             {/* HEADINGS */}
             <motion.div
                 className="md:w-2/4 mx-auto text-center"

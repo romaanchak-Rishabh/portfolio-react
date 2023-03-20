@@ -5,7 +5,7 @@ import "../skillset.css";
 
 const Skillset = () => {
     return (
-        <section id="skillset" className="pt-40 pb-24 section flex flex-col items-center">
+        <section id="skillset" className=" pt-20 md:pt-40 pb-24 section flex flex-col items-center">
             {/* HEADINGS */}
             <motion.div
                 className="md:w-2/4 mx-auto text-center"
@@ -26,7 +26,7 @@ const Skillset = () => {
                 <div className="flex justify-center mt-5">
                     <LineGradient width="w-1/3" />
                 </div>
-                <p className="mt-8 mb-1">
+                <p className="mt-8 mb-1 ">
                 A powerful skillset is the foundation for creating innovative and impactful solutions that drive business success in the digital world, and I'm equipped with a few.
                 </p>
             </motion.div>

@@ -20,10 +20,10 @@ const Contact = () => {
     }
 
     return (
-        <section id="contact" className="py-24 pb-0">
+        <section id="contact" className="py-12 mb-5 md:py-24 md:pb-0">
             {/* HEADINGS */}
             <motion.div
-                className="flex justify-end w-full"
+                className="flex justify-center md:justify-end w-full"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{once: true, amount:0.5}}
@@ -44,7 +44,7 @@ const Contact = () => {
             </motion.div>
 
             {/* FORM AND IMAGE */}
-            <div className="md:flex md:justify-between gap-16 mt-5">
+            <div className="md:flex md:justify-between gap-16 mt-10 md:mt-5">
                 <motion.div
                     className="basis-1/2 flex justify-center"
                     initial="hidden"
@@ -60,7 +60,7 @@ const Contact = () => {
                 </motion.div>
 
                 <motion.div
-                    className="basis-1/2 mt-10 md:mt-0"
+                    className="basis-1/2 mt-[-6rem] md:mt-0"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{once: true, amount:0.5}}

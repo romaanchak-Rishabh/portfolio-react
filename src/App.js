@@ -52,7 +52,7 @@ function App() {
         <MySkills />
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto">
+      <div className="w-[90vw] md:w-5/6 mx-auto">
         <Skillset />
       </div>
       <LineGradient />
@@ -60,7 +60,7 @@ function App() {
         <Projects />
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto">
+      <div className="w-full md:w-5/6 mx-auto">
         <YoursTruly />
       </div>
       <LineGradient />

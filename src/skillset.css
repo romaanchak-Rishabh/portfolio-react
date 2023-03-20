@@ -24,6 +24,7 @@
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
+    /* padding: 10px; */
   }
   .box:hover:not(.link) > .box-face,
   .box:hover > .box-back {
@@ -100,3 +101,70 @@
     font-size: 4rem;
   }
    */
+
+@media screen and (max-width: 468px) {
+  .section {
+    @apply flex justify-center pl-[25px];
+  }
+
+  .v-boxes:not(:first-child) {
+    @apply ml-[-55px];
+  }
+  .second {
+    @apply mt-[60px];
+  }
+  .third {
+    @apply mt-[120px];
+  }
+  .forth {
+    @apply mt-[180px];
+  }
+
+  .box {
+    @apply w-[70px] h-[70px] rotate-45 cursor-pointer m-[25px];
+  }
+  .box:hover:not(.link) > .box-face,
+  .box:hover > .box-back {
+    @apply bg-transparent;
+    transform: translateZ(100px) rotateX(180deg);
+  }
+  .box-face,
+  .box-back {
+    @apply absolute z-[1] w-[80px] h-[80px] bg-[#dedede] rotate-90 transition-transform duration-[1s,background-color] delay-[0s] delay-[0.3s] top-0;
+  }
+  .box-face .box-text {
+    @apply leading-[80px] text-center text-[20px] text-[#bababa] rotate-[-135deg] transition-opacity duration-[0s] ease-linear delay-[0.3s];
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+  }
+  .box-back .box-text {
+    @apply leading-[80px] text-center text-xs text-[#636363] transition-opacity duration-[0s] ease-linear delay-[0.3s];
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    transform: rotate(-135deg) rotateY(180deg);
+  }
+  .box-back {
+    @apply z-0 bg-[linear-gradient(_#fff,#efefef)];
+  }
+  .box-text img {
+    @apply max-w-[32px] max-h-8 grayscale saturate-0 opacity-50;
+    -webkit-filter: grayscale(100%) saturate(0);
+  }
+  .tooltip {
+    @apply invisible opacity-0 absolute w-14 text-[10px] text-black text-center z-[1000] -rotate-45 px-0 py-[-20px] border-t-[rgba(0,0,0,0.8)] border-t border-solid left-[35px] bottom-[-5px] after:absolute after:top-[-5px] after:content-['_'] after:w-0 after:h-0 after:border-b-[5px] after:border-b-[black] after:border-x-[5px] after:border-x-transparent after:border-solid after:left-[25px];
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transition: visibility 0s linear 0.3s, opacity 1s linear 0.3s;
+  }
+
+  .box-face .box-text i {
+    font-size: 1.5rem;
+  }
+
+  .box-back .box-text i {
+    font-size: 0.8rem;
+  }
+}

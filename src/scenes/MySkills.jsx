@@ -11,7 +11,7 @@ const MySkills = () => {
         <section id="skills" className="pt-10 pb-24">
             
             {/* HEADER AND IMAGE SECTION */}
-            <div className="md:flex md:justify-between md:gap-16 mt-32">
+            <div className="md:flex md:justify-between md:gap-16 mt-10 md:mt-32">
                 <motion.div
                     className="md:w-1/3"
                     initial="hidden"
@@ -55,7 +55,7 @@ const MySkills = () => {
             <div className="md:flex md:justify-between mt-16 gap-32">
                 {/* EXPERIENCE */}
                 <motion.div
-                    className="md:w-1/3"
+                    className="md:w-1/3 mb-10 md:mb-0"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{once: true, amount:0.5}}
@@ -78,7 +78,7 @@ const MySkills = () => {
 
                 {/* INNOVATIVE */}
                 <motion.div
-                    className="md:w-1/3"
+                    className="md:w-1/3 mb-10 md:mb-0"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{once: true, amount:0.5}}

@@ -2,6 +2,9 @@ import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
 
+import OpenMenu from "../assets/menu-icon.svg";
+import CloseMenu from "../assets/close-icon.svg";
+
 const Link = ({page, selectedPage, setSelectedPage}) => {
     const lowerCasePage = page.toLowerCase();
     return (
@@ -20,7 +23,7 @@ const Navbar =({ isTopOfPage, selectedPage, setSelectedPage}) => {
     const navbarBackground = isTopOfPage ? "" : "bg-red";
 
     return (
-        <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
+        <nav className={`${navbarBackground} z-40 w-[100vw] fixed top-0 py-6`}>
             <div className="noice flex items-center justify-between mx-auto w-5/6">
                 <h4 className="font-playfair text-3xl font-bold">RJ</h4>
 
@@ -60,17 +63,17 @@ const Navbar =({ isTopOfPage, selectedPage, setSelectedPage}) => {
                     </div>
                 ) : (
                     <button className="rounded-full bg-red p-2" onClick={() => setIsMenuToggled(!isMenuToggled) }>
-                        <img alt="menu-icon" src="../assets/menu-icon.svg" />
+                        <img alt="menu-icon" src={OpenMenu} />
                     </button>
                 )}
 
                 {/* MOBILE MENU POPUP */}
                 {!isAboveSmallScreens && isMenuToggled && (
-                    <div className="fixed right-0 bottom-0 h-full bg-blue w-[300px ]">
+                    <div className="fixed right-0 bottom-0 h-full bg-blue w-[300px] ">
                         {/* CLOSE ICON */}
-                        <div className="flex justify-end p-12">
+                        <div className="flex justify-end p-8">
                             <button onClick={()=> setIsMenuToggled(!isMenuToggled)}>
-                                <img alt="close-icon" src="../assets/close-icon.svg" />
+                                <img alt="close-icon" src={CloseMenu} />
                             </button>
                         </div>
 
