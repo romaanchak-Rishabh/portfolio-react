@@ -18,7 +18,7 @@ const YoursTruly = () => {
             }}
         >
             <div>
-                <p className="font-playfair font-semibold text-4xl ">
+                <p className="font-playfair font-semibold text-4xl">
                     <span className="text-red">Y</span>OURS <span className='text-red'>T</span>RULY
                 </p>
             </div>
