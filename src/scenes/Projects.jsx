@@ -1,13 +1,13 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 import useMediaQuery from "../hooks/useMediaQuery";
-import ProjectImg1 from "../assets/project-1.jpeg";
+import ProjectImg1 from "../assets/project-13.jpeg";
 import ProjectImg2 from "../assets/project-10.png";
 import ProjectImg3 from "../assets/project-9.png";
 import ProjectImg4 from "../assets/project-11.png";
 import ProjectImg5 from "../assets/project-12.jpeg";
 import ProjectImg6 from "../assets/project-8.png";
-import ProjectImg7 from "../assets/project-13.jpeg";
+import ProjectImg7 from "../assets/project-14.jpeg";
 
 
 const container = {
@@ -98,7 +98,7 @@ const Projects = () => {
                 <div className="flex justify-center text-center items-center p-10 bg-red max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
                     BEAUTIFUL USER INTERFACES
                 </div>
-                <Project title="" Imgsrc={ProjectImg1} Placeholder="" />
+                <a href="https://github.com/romaanchak-Rishabh/flip-the-script" target="_blank"><Project title="Flip-the-Script" Imgsrc={ProjectImg1} Placeholder="Leveraging a suite of cutting-edge technologies, including ReactJS, Quill, and Axios, I developed a full-stack social media website catering to the needs of both authors and readers. Boasting a range of features, including account management, a user feed, and administrative functionalities." /></a>
                 <a href="https://github.com/romaanchak-Rishabh/Phontek" target="_blank"><Project title="Phontek" Imgsrc={ProjectImg2} Placeholder="I utilized a diverse range of advanced web development technologies, including ReactJS, OpenStreetMap, and Axios, to develop a fully functional and multipage web application for an ecommerce business specializing in technological products." /></a>
 
                 {/* ROW 2 */}
@@ -108,7 +108,7 @@ const Projects = () => {
 
                 {/* ROW 3 */}
                 <a href="https://github.com/romaanchak-Rishabh/Apple.com_Clone" target="_blank"><Project title="Apple.com Clone" Imgsrc={ProjectImg6} Placeholder="I successfully replicated the frontend of 'Apple.com', complete with full functionality and responsive design." /></a>
-                <a href="https://github.com/romaanchak-Rishabh/flip-the-script" target="_blank"><Project title="Flip-the-Script" Imgsrc={ProjectImg7} Placeholder="Leveraging a suite of cutting-edge technologies, including ReactJS, Quill, and Axios, I developed a full-stack social media website catering to the needs of both authors and readers. Boasting a range of features, including account management, a user feed, and administrative functionalities." /></a>
+                <a href="https://github.com/romaanchak-Rishabh/flip-the-script" target="_blank"><Project title="Login protected To-do App" Imgsrc={ProjectImg7} Placeholder="I have developed a task management application using Javascript that incorporates secure login and logout features, ensuring optimal security for user data." /></a>
                 <div className="flex justify-center text-center items-center p-10 bg-blue max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
                     SMOOTH USER EXPERIENCE
                 </div>
