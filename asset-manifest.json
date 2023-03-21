@@ -1,31 +1,31 @@
 {
   "files": {
     "main.css": "./static/css/main.e4dbee1f.css",
-    "main.js": "./static/js/main.f5380ec6.js",
-    "static/media/project-9.png": "./static/media/project-9.61931d6857200b06fdc8.png",
+    "main.js": "./static/js/main.db778c64.js",
     "static/media/project-10.png": "./static/media/project-10.348d241520dd3155874b.png",
     "static/media/profileImage.jpg": "./static/media/profileImage.9cdf288c5c441fce40b8.jpg",
-    "static/media/project-11.png": "./static/media/project-11.cbfe7f7b95713c17d162.png",
     "static/media/skills-image.png": "./static/media/skills-image.51e40da64df180a7669a.png",
-    "static/media/project-8.png": "./static/media/project-8.ba3b241cccae1bc0d437.png",
     "static/media/contactMe.png": "./static/media/contactMe.da92213c04115d484316.png",
     "static/media/contactMeBlob.png": "./static/media/contactMeBlob.f26ac474e3a5b8509abc.png",
     "static/media/youtube.png": "./static/media/youtube.2099fbf71a019803bb0d.png",
     "static/media/person-3.png": "./static/media/person-3.5dd0b714cfc8d2673b79.png",
     "static/media/person-2.png": "./static/media/person-2.6570129d3e8716b40235.png",
-    "static/media/project-1.jpeg": "./static/media/project-1.f3b907cc9bc300f0c439.jpeg",
     "static/media/person-1.png": "./static/media/person-1.fb6c3796b42f9ad950c7.png",
+    "static/media/project-9.png": "./static/media/project-9.b7a4e436432e5843d174.png",
     "static/media/project-12.jpeg": "./static/media/project-12.5e47ee50f560fed33495.jpeg",
     "static/media/project-13.jpeg": "./static/media/project-13.77341a4a23d02fe41bdc.jpeg",
     "static/media/brush.png": "./static/media/brush.85c9bab5ba2d7dcae1e3.png",
+    "static/media/project-14.jpeg": "./static/media/project-14.ad1686bd63598376aa2a.jpeg",
+    "static/media/project-11.png": "./static/media/project-11.6d705088e434a817b6a8.png",
+    "static/media/project-8.png": "./static/media/project-8.2d30a4f22f2c8d6ae197.png",
     "index.html": "./index.html",
     "static/media/close-icon.svg": "./static/media/close-icon.36a1df96f812b5f4c12f817f90a904c6.svg",
     "static/media/menu-icon.svg": "./static/media/menu-icon.9cbfc3090b4b0aec575128df8ede3633.svg",
     "main.e4dbee1f.css.map": "./static/css/main.e4dbee1f.css.map",
-    "main.f5380ec6.js.map": "./static/js/main.f5380ec6.js.map"
+    "main.db778c64.js.map": "./static/js/main.db778c64.js.map"
   },
   "entrypoints": [
     "static/css/main.e4dbee1f.css",
-    "static/js/main.f5380ec6.js"
+    "static/js/main.db778c64.js"
   ]
 }
