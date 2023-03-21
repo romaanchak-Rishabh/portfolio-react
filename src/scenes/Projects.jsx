@@ -43,8 +43,8 @@ const Project = ( {title, Imgsrc, Placeholder} ) => {
             ) : (
                 <div variants={projectVariant} className="relative my-2 md:my0">
                     <div className={overlayStyles}>
-                        <p className="text-xl md:text-2xl font-playfair">{title}</p>
-                        <p className="text-base mt-4 md:mt-7">
+                        <p className="text-base md:text-2xl font-playfair">{title}</p>
+                        <p className="text-xs mt-4 md:mt-7">
                             {Placeholder}
                         </p>
                     </div>
