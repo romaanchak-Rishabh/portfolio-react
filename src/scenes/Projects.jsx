@@ -45,7 +45,7 @@ const Project = ( {title, Imgsrc, Placeholder} ) => {
                     <div className={overlayStyles}>
                         <p className="text-xl md:text-2xl font-playfair">{title}</p>
                         <p className="text-base mt-4 md:mt-7">
-                            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
+                            {Placeholder}
                         </p>
                     </div>
                     <img src={Imgsrc} alt={projectTitle} />
