@@ -76,7 +76,7 @@ const Landing = ({setSelectedPage}) => {
                     <a
                         className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
                         // onClick={() => setSelectedPage("contact")}
-                        href="https://docs.google.com/document/d/1Q17dxZYOIDWrBEt1uioZNdLrPg3zNrDdY5k2iDLg2hc/edit?usp=sharing"
+                        href="https://drive.google.com/file/d/1bbYWk3_TguLDdacSqHf1uwEv0djtfVYs/view?usp=sharing"
                         target="_blank"
                     >
                         <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center font-playfair px-10">
